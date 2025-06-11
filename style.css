@@ -1,18 +1,124 @@
-{
- font-family: Arial, sans-serif;
- margin: 0;
-padding: 0;
- background-color: #f4f4f4;
- }
-.container {
-text-align: center;
- padding: 50px;
- }
-h1 {
-color: #333;
-font-size: 36px;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #b01212;
+  text-align: center;
 }
-p {
-font-size: 18px;
- color: #555;
- }
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-top: 5px;
+  color: #b01212;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.section img {
+  width: 180px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.section-text {
+  background-color: #ffe5e5;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.caption {
+  font-size: 12px;
+  font-weight: bold;
+  color: #b01212;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #ffd6d6;
+  padding: 12px 30px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: #b01212;
+  margin: 20px auto;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tomato-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin: 20px;
+}
+
+.tomato-card {
+  width: 160px;
+}
+
+.tomato-card img {
+  width: 100%;
+}
+
+.tomato-label {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 3px;
+  font-size: 13px;
+}
+
+.footer-note {
+  color: #b01212;
+  font-weight: bold;
+  margin: 30px 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 20px;
+  font-weight: bold;
+}
+
+.back-button {
+  background-color: #f22c2c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 20px auto;
+}
