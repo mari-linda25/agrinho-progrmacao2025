@@ -127,3 +127,9 @@ footer {
   font-size: 1.2rem;
   font-style: italic;
 }
+.descricao-imagem {
+  font-size: 0.8rem;
+  color: #666;
+  text-align: center;
+  margin.top: 0.4rem;
+}
