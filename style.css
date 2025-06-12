@@ -122,3 +122,8 @@ footer {
   cursor: pointer;
   margin: 20px auto;
 }
+
+.subtitulo {
+  font-size: 1.2rem;
+  font-style: italic;
+}
